@@ -3,7 +3,7 @@ Offline, single-file photo organiser with metadata rules, duplicate review, anim
 
 ---
 
-Photo Sorter
+## Photo Sorter
 
 An offline photo organiser with a slightly overenthusiastic filing machine.
 
@@ -13,7 +13,7 @@ Open the HTML file in a compatible browser, choose some files and press GO. Phot
 
 The animation is a preview. Files only change when you separately approve a copy or move, or export an organised ZIP.
 
-Features
+### Features
 
 Visual sorting: Animated category trays, a GO button and replay, with a reduced-motion option.
 
@@ -35,7 +35,7 @@ Recovery tools: Operation receipts, recovery journals and undo support for eligi
 
 Everything runs locally. There are no accounts, external JavaScript libraries or cloud uploads.
 
-Getting started
+### Getting started
 
 Download photo-sorter-v1.1.2-go.html from the project releases or repository and open it in a recent Chromium-based browser. You can also rename it index.html.
 
@@ -49,7 +49,7 @@ Use Export ZIP to download organised copies, or Organise files to copy or move t
 
 Start with a disposable folder. Check the output before allowing the application to move anything important.
 
-How sorting works
+### How sorting works
 
 The organiser considers file types, filenames, embedded metadata and basic image characteristics. A photograph can have several descriptive tags but one proposed destination.
 
@@ -59,7 +59,7 @@ GO does not move files. It shows the proposed result. Export and direct file ope
 
 Exact duplicate results compare file contents. Visually similar matches are suggestions for inspection. A resized or recompressed photograph may look identical but contain different data.
 
-Browsers and file access
+### Browsers and file access
 
 The HTML runs without a server, but browser permissions determine which operations are available.
 
@@ -69,7 +69,7 @@ Direct Copy and Move require compatible browser filesystem support and permissio
 
 Large exports depend on available memory and filesystem support. Streaming ZIP output is used where supported; the fallback has more restrictive size limits.
 
-Privacy and safety
+### Privacy and safety
 
 Files are analysed in your browser and are not uploaded by the application.
 
@@ -81,13 +81,13 @@ Recovery records and Undo help after an interruption but cannot guarantee recove
 
 Photograph classification is approximate. Review uncertain categories before committing an organisation run.
 
-Project format
+### Project format
 
 The application is self-contained in one HTML file. It uses HTML, CSS and vanilla JavaScript, with no server, build process or external dependencies.
 
 Current release: v1.1.2
 
-Licence
+### Licence
 
 MIT Licence.
 
